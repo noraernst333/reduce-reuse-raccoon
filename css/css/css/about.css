@@ -1,0 +1,75 @@
+#pageTitle {
+  font-family: "Chewy", cursive;
+  text-align: center;
+  font-size: 70px;
+}
+
+#about {
+  min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.trashStats {
+  background-color: #e7f0fa;
+  padding: 25px 30px;
+  border-radius: 40px;
+  border-style: ridge;
+  max-width: 740px;
+
+  position: relative; /* IMPORTANT FIX */
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+
+.trashStats::after {
+  content: "";
+  position: absolute;
+
+  right: 60px;
+  top: -50px;
+
+  border-width: 30px;
+  border-style: solid;
+  border-color: transparent transparent #e7f0fa transparent;
+}
+
+#about h2 {
+  font-family: "Chewy", cursive;
+  text-align: center;
+  font-size: 60px;
+}
+
+#note {
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+}
+.bold {
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+}
+#infoBox {
+  background: #fffaf0;
+  padding: 30px 40px;
+  border-radius: 28px;
+
+  border: solid;
+  border-width: 3px;
+  border-color: #d6cfc7;
+
+  box-shadow: 0 4px 8px gray;
+
+  max-width: 800px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
