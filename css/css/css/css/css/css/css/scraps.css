@@ -1,0 +1,59 @@
+.offerTips {
+  background-color: #e7f0fa;
+  padding: 25px 30px;
+  border-radius: 40px;
+  border-style: ridge;
+  max-width: 740px;
+
+  position: relative;
+}
+
+.offerTips::after {
+  content: "";
+  position: absolute;
+
+  right: 60px;
+  top: -50px;
+
+  border-width: 30px;
+  border-style: solid;
+  border-color: transparent transparent #e7f0fa transparent;
+}
+
+#scraps {
+  min-height: 900px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+#playbook {
+  background: #fffaf0;
+  padding: 30px 40px;
+  border-radius: 28px;
+
+  border: solid;
+  border-width: 3px;
+  border-color: #d6cfc7;
+
+  box-shadow: 0 4px 8px gray;
+
+  max-width: 800px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+h5 {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
