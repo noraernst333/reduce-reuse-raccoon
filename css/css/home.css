@@ -1,0 +1,78 @@
+#pageTitle {
+  font-family: "Chewy", cursive;
+  text-align: center;
+  font-size: 60px;
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.riverIntro {
+  background-color: #e7f0fa;
+  padding: 25px 30px;
+  border-style: ridge;
+  border-radius: 40px;
+  width: 100%;
+  max-width: 740px;
+  position: relative;
+}
+
+.riverIntro::after {
+  content: "";
+  position: absolute;
+
+  right: 60px;
+  top: -50px;
+
+  border-width: 30px;
+  border-style: solid;
+  border-color: transparent transparent #e7f0fa transparent;
+}
+
+.leftShift {
+  background-color: #fbffff;
+  width: 500px;
+  max-width: 90%;
+  border: 6px solid white;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 20px;
+  margin-right: auto;
+  align-self: flex-start;
+}
+
+.rightShift {
+  background-color: #fbffff;
+  width: 500px;
+  max-width: 90%;
+  border: 6px solid white;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 20px;
+  margin-left: auto;
+  align-self: flex-end;
+}
+
+.pawButton {
+  font-size: 30px;
+  color: #593c39;
+  text-decoration: none;
+}
+
+.pawButton:hover {
+  color: #4a2c2a;
+}
+
+.leftShift:hover {
+  box-shadow: 10px 10px black;
+}
+
+.rightShift:hover {
+  box-shadow: 10px 10px black;
+}
