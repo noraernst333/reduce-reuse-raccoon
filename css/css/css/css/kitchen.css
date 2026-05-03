@@ -1,0 +1,178 @@
+#pageTitle {
+  font-family: "Chewy", cursive;
+  text-align: center;
+  font-size: 70px;
+}
+
+.scourKitchen::after {
+  content: "";
+  position: absolute;
+
+  right: 60px;
+  top: -50px;
+
+  border-width: 30px;
+  border-style: solid;
+  border-color: transparent transparent #e7f0fa transparent;
+}
+
+.scourKitchen {
+  background-color: #e7f0fa;
+  padding: 25px 30px;
+  border-radius: 40px;
+  border-style: ridge;
+  max-width: 740px;
+
+  position: relative;
+}
+
+#kitchen {
+  min-height: 900px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+#teaRecipe {
+  background: #fffaf0;
+  padding: 30px 40px;
+  border-radius: 28px;
+
+  border: solid;
+  border-width: 3px;
+  border-color: #d6cfc7;
+
+  box-shadow: 0 4px 8px gray;
+
+  max-width: 800px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+#syrupRecipe {
+  background: #fffaf0;
+  padding: 30px 40px;
+  border-radius: 28px;
+
+  border: solid;
+  border-width: 3px;
+  border-color: #d6cfc7;
+
+  box-shadow: 0 4px 8px gray;
+
+  max-width: 800px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+#cookieRecipe {
+  background: #fffaf0;
+  padding: 30px 40px;
+  border-radius: 28px;
+
+  border: solid;
+  border-width: 3px;
+  border-color: #d6cfc7;
+
+  box-shadow: 0 4px 8px gray;
+
+  max-width: 800px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+#vinaigretteRecipe {
+  background: #fffaf0;
+  padding: 30px 40px;
+  border-radius: 28px;
+
+  border: solid;
+  border-width: 3px;
+  border-color: #d6cfc7;
+
+  box-shadow: 0 4px 8px gray;
+
+  max-width: 800px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+#breadcrumbRecipe {
+  background: #fffaf0;
+  padding: 30px 40px;
+  border-radius: 28px;
+
+  border: solid;
+  border-width: 3px;
+  border-color: #d6cfc7;
+
+  box-shadow: 0 4px 8px gray;
+
+  max-width: 800px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+#dumplingRecipe {
+  background: #fffaf0;
+  padding: 30px 40px;
+  border-radius: 28px;
+
+  border: solid;
+  border-width: 3px;
+  border-color: #d6cfc7;
+
+  box-shadow: 0 4px 8px gray;
+
+  max-width: 800px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+h5 {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+}
+.recipeButton {
+  font-size: 30px;
+  color: #f3e5ab;
+  text-decoration: none;
+}
+
+.recipeButton:hover {
+  color: #deb887;
+}
