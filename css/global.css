@@ -4,6 +4,12 @@
   padding: 20px 0px;
 }
 
+#pageTitle {
+  font-family: "Chewy", cursive;
+  text-align: center;
+  font-size: 70px;
+}
+
 header p {
   font-size: 27px;
 }
