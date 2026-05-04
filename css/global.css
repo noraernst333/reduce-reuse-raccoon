@@ -41,6 +41,17 @@ h1 {
   color: #228b22;
 }
 
+#navBarList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* IMPORTANT */
+  gap: 10px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
