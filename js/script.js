@@ -12,10 +12,3 @@
     window.scrollTo(0, 0);
   };
 
-  const cards = document.querySelectorAll(".Card");
-
-cards.forEach(function(card) {
-  card.addEventListener("click", function () {
-    card.classList.toggle("active");
-  });
-});
